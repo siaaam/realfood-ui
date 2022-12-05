@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -23,22 +24,19 @@ const Header = () => {
                 <div className="uk-navbar-center">
                   <ul className="uk-navbar-nav">
                     <li>
-                      <a
-                        href="https://wicombit.com/demo/realfood"
-                        target="_self"
-                      >
+                      <NavLink to="/" target="_self">
                         Home
-                      </a>
+                      </NavLink>
                     </li>
                     <li>
-                      <a href="search.html" target="_self">
+                      <NavLink to="/search" target="_self">
                         Search
-                      </a>
+                      </NavLink>
                     </li>
                     <li>
-                      <a href="members.html" target="_self">
+                      <NavLink to="/member" target="_self">
                         Members
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </div>
