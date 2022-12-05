@@ -1,12 +1,18 @@
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import HomePage from './components/HomePage';
+import HomePage from './components/pages/HomePage';
+import Layout from './components/shared/Layout';
 
 function App() {
   return (
-    <>
-      <HomePage />
-    </>
+    <BrowserRouter>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+        </Routes>
+      </Layout>
+    </BrowserRouter>
   );
 }
 
