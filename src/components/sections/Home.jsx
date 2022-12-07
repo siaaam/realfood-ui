@@ -3,20 +3,20 @@ import React from 'react';
 const Home = () => {
   return (
     <div
-      class="uk-container uk-margin-large-top"
+      className="uk-container uk-margin-large-top"
       uk-scrollspy="cls: uk-animation-fade; delay: 100"
     >
-      <div class="tas_slider_1 uk-slider">
-        <div class="uk-position-relative">
-          <div class="uk-slider-container">
-            <ul class="uk-slider-items uk-child-width-1-1">
+      <div className="tas_slider_1 uk-slider">
+        <div className="uk-position-relative">
+          <div className="uk-slider-container">
+            <ul className="uk-slider-items uk-child-width-1-1">
               <li>
                 <div
-                  class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin
+                  className="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin
                   uk-grid"
                 >
                   <a href="recipe/1/mighty-super-cheesecake.html">
-                    <div class="uk-card-media-left uk-cover-container">
+                    <div className="uk-card-media-left uk-cover-container">
                       <img
                         src="images/recipe_1618205715.jpg"
                         alt="Mighty Super Cheesecake"
@@ -26,15 +26,17 @@ const Home = () => {
                     </div>
                   </a>
                   <div>
-                    <div class="uk-card-body uk-text-center uk-text-left@s">
-                      <div class="tas_badge uk-label">Desserts</div>
+                    <div className="uk-card-body uk-text-center uk-text-left@s">
+                      <div className="tas_badge uk-label">Desserts</div>
 
                       <a href="recipe/1/mighty-super-cheesecake.html">
-                        <h2 class="uk-card-title">Mighty Super Cheesecake</h2>
+                        <h2 className="uk-card-title">
+                          Mighty Super Cheesecake
+                        </h2>
                       </a>
-                      <hr class="uk-divider-small" />
+                      <hr className="uk-divider-small" />
 
-                      <div class="tas_rating">
+                      <div className="tas_rating">
                         <img src="assets/img/like.svg" />
                         <span>12</span>
                       </div>
@@ -47,15 +49,15 @@ const Home = () => {
                         proident
                       </p>
 
-                      <ul class="uk-flex-center uk-flex-left@s uk-subnav uk-margin">
+                      <ul className="uk-flex-center uk-flex-left@s uk-subnav uk-margin">
                         <li>
                           <span>
-                            <i class="tas_icon ti ti-users"></i> 4 Serv.
+                            <i className="tas_icon ti ti-users"></i> 4 Serv.
                           </span>
                         </li>
                         <li>
                           <span>
-                            <i class="tas_icon ti ti-clock"></i> 45 Min
+                            <i className="tas_icon ti ti-clock"></i> 45 Min
                           </span>
                         </li>
                       </ul>
@@ -65,9 +67,9 @@ const Home = () => {
               </li>
 
               {/* <li>
-                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin    uk-grid">
+                <div className="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin    uk-grid">
                   <a href="recipe/3/spinach-and-cheese-pasta.html">
-                    <div class="uk-card-media-left uk-cover-container">
+                    <div className="uk-card-media-left uk-cover-container">
                       <img
                         src="images/recipe_1619359174.jpg"
                         alt="Spinach and Cheese Pasta"
@@ -77,15 +79,15 @@ const Home = () => {
                     </div>
                   </a>
                   <div>
-                    <div class="uk-card-body uk-text-center uk-text-left@s">
-                      <div class="tas_badge uk-label">Vegan</div>
+                    <div className="uk-card-body uk-text-center uk-text-left@s">
+                      <div className="tas_badge uk-label">Vegan</div>
 
                       <a href="recipe/3/spinach-and-cheese-pasta.html">
-                        <h2 class="uk-card-title">Spinach and Cheese Pasta</h2>
+                        <h2 className="uk-card-title">Spinach and Cheese Pasta</h2>
                       </a>
-                      <hr class="uk-divider-small" />
+                      <hr className="uk-divider-small" />
 
-                      <div class="tas_rating">
+                      <div className="tas_rating">
                         <img src="assets/img/like.svg" />
                         <span>5</span>
                       </div>
@@ -99,17 +101,17 @@ const Home = () => {
                       </p>
 
                       <ul
-                        class="uk-flex-center uk-flex-left@s uk-subnav"
+                        className="uk-flex-center uk-flex-left@s uk-subnav"
                         uk-margin
                       >
                         <li>
                           <span>
-                            <i class="tas_icon ti ti-users"></i> 4 Serv.
+                            <i className="tas_icon ti ti-users"></i> 4 Serv.
                           </span>
                         </li>
                         <li>
                           <span>
-                            <i class="tas_icon ti ti-clock"></i> 15 Min
+                            <i className="tas_icon ti ti-clock"></i> 15 Min
                           </span>
                         </li>
                       </ul>
@@ -120,11 +122,11 @@ const Home = () => {
 
               {/* <li>
                 <div
-                  class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin"
+                  className="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin"
                   uk-grid
                 >
                   <a href="recipe/6/berries-and-banana-smoothie.html">
-                    <div class="uk-card-media-left uk-cover-container">
+                    <div className="uk-card-media-left uk-cover-container">
                       <img
                         src="images/recipe_1620059598.jpg"
                         alt="Berries and Banana Smoothie"
@@ -134,17 +136,17 @@ const Home = () => {
                     </div>
                   </a>
                   <div>
-                    <div class="uk-card-body uk-text-center uk-text-left@s">
-                      <div class="tas_badge uk-label">Smoothies</div>
+                    <div className="uk-card-body uk-text-center uk-text-left@s">
+                      <div className="tas_badge uk-label">Smoothies</div>
 
                       <a href="recipe/6/berries-and-banana-smoothie.html">
-                        <h2 class="uk-card-title">
+                        <h2 className="uk-card-title">
                           Berries and Banana Smoothie
                         </h2>
                       </a>
-                      <hr class="uk-divider-small" />
+                      <hr className="uk-divider-small" />
 
-                      <div class="tas_rating">
+                      <div className="tas_rating">
                         <img src="assets/img/like.svg" />
                         <span>2</span>
                       </div>
@@ -158,17 +160,17 @@ const Home = () => {
                       </p>
 
                       <ul
-                        class="uk-flex-center uk-flex-left@s uk-subnav"
+                        className="uk-flex-center uk-flex-left@s uk-subnav"
                         uk-margin
                       >
                         <li>
                           <span>
-                            <i class="tas_icon ti ti-users"></i> 1 Serv.
+                            <i className="tas_icon ti ti-users"></i> 1 Serv.
                           </span>
                         </li>
                         <li>
                           <span>
-                            <i class="tas_icon ti ti-clock"></i> 5 Min
+                            <i className="tas_icon ti ti-clock"></i> 5 Min
                           </span>
                         </li>
                       </ul>
@@ -179,11 +181,11 @@ const Home = () => {
 
               {/* <li>
                 <div
-                  class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin"
+                  className="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin"
                   uk-grid
                 >
                   <a href="recipe/7/how-to-make-fast-margherita-pizza.html">
-                    <div class="uk-card-media-left uk-cover-container">
+                    <div className="uk-card-media-left uk-cover-container">
                       <img
                         src="images/recipe_1620060146.jpg"
                         alt="How to make fast margherita pizza"
@@ -193,17 +195,17 @@ const Home = () => {
                     </div>
                   </a>
                   <div>
-                    <div class="uk-card-body uk-text-center uk-text-left@s">
-                      <div class="tas_badge uk-label">Pizza</div>
+                    <div className="uk-card-body uk-text-center uk-text-left@s">
+                      <div className="tas_badge uk-label">Pizza</div>
 
                       <a href="recipe/7/how-to-make-fast-margherita-pizza.html">
-                        <h2 class="uk-card-title">
+                        <h2 className="uk-card-title">
                           How to make fast margherita pizza
                         </h2>
                       </a>
-                      <hr class="uk-divider-small" />
+                      <hr className="uk-divider-small" />
 
-                      <div class="tas_rating">
+                      <div className="tas_rating">
                         <img src="assets/img/like.svg" />
                         <span>7</span>
                       </div>
@@ -217,17 +219,17 @@ const Home = () => {
                       </p>
 
                       <ul
-                        class="uk-flex-center uk-flex-left@s uk-subnav"
+                        className="uk-flex-center uk-flex-left@s uk-subnav"
                         uk-margin
                       >
                         <li>
                           <span>
-                            <i class="tas_icon ti ti-users"></i> 4 Serv.
+                            <i className="tas_icon ti ti-users"></i> 4 Serv.
                           </span>
                         </li>
                         <li>
                           <span>
-                            <i class="tas_icon ti ti-clock"></i> 45 Min
+                            <i className="tas_icon ti ti-clock"></i> 45 Min
                           </span>
                         </li>
                       </ul>
@@ -238,11 +240,11 @@ const Home = () => {
 
               {/* <li>
                 <div
-                  class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin"
+                  className="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin"
                   uk-grid
                 >
                   <a href="recipe/10/blueberries-and-cream-almond-oatmeal.html">
-                    <div class="uk-card-media-left uk-cover-container">
+                    <div className="uk-card-media-left uk-cover-container">
                       <img
                         src="images/recipe_1620061767.jpg"
                         alt="Blueberries and Cream almond"
@@ -252,17 +254,17 @@ const Home = () => {
                     </div>
                   </a>
                   <div>
-                    <div class="uk-card-body uk-text-center uk-text-left@s">
-                      <div class="tas_badge uk-label">Breakfast</div>
+                    <div className="uk-card-body uk-text-center uk-text-left@s">
+                      <div className="tas_badge uk-label">Breakfast</div>
 
                       <a href="recipe/10/blueberries-and-cream-almond-oatmeal.html">
-                        <h2 class="uk-card-title">
+                        <h2 className="uk-card-title">
                           Blueberries and Cream almond
                         </h2>
                       </a>
-                      <hr class="uk-divider-small" />
+                      <hr className="uk-divider-small" />
 
-                      <div class="tas_rating">
+                      <div className="tas_rating">
                         <img src="assets/img/like.svg" />
                         <span>2</span>
                       </div>
@@ -276,17 +278,17 @@ const Home = () => {
                       </p>
 
                       <ul
-                        class="uk-flex-center uk-flex-left@s uk-subnav"
+                        className="uk-flex-center uk-flex-left@s uk-subnav"
                         uk-margin
                       >
                         <li>
                           <span>
-                            <i class="tas_icon ti ti-users"></i> 2 Serv.
+                            <i className="tas_icon ti ti-users"></i> 2 Serv.
                           </span>
                         </li>
                         <li>
                           <span>
-                            <i class="tas_icon ti ti-clock"></i> 8 Min
+                            <i className="tas_icon ti ti-clock"></i> 8 Min
                           </span>
                         </li>
                       </ul>
@@ -298,7 +300,7 @@ const Home = () => {
           </div>
         </div>
 
-        {/* <ul class="tas_dotnav_1 uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul> */}
+        {/* <ul className="tas_dotnav_1 uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul> */}
       </div>
     </div>
   );

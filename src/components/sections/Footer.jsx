@@ -2,16 +2,16 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div class="tas-footer">
-      <div class="uk-container">
-        <div class="tas-widgets uk-grid-large uk-grid">
-          <div class="uk-width-1-1 uk-width-1-2@s uk-width-1-2@m">
-            <h4 class="tas-title">About Us</h4>
-            <p class="tas-about">
+    <div className="tas-footer">
+      <div className="uk-container">
+        <div className="tas-widgets uk-grid-large uk-grid">
+          <div className="uk-width-1-1 uk-width-1-2@s uk-width-1-2@m">
+            <h4 className="tas-title">About Us</h4>
+            <p className="tas-about">
               An About Us page helps your company make a good first impression,
               and is critical for building custo
             </p>
-            <ul class="tas-follow uk-iconnav">
+            <ul className="tas-follow uk-iconnav">
               <li>
                 <a
                   href="https://www.facebook.com/"
@@ -33,9 +33,9 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div class="uk-width-1-1 uk-width-1-2@s uk-width-1-4@m">
-            <h4 class="tas-title">Quick Links</h4>
-            <ul class="uk-list">
+          <div className="uk-width-1-1 uk-width-1-2@s uk-width-1-4@m">
+            <h4 className="tas-title">Quick Links</h4>
+            <ul className="uk-list">
               <li>
                 <a href="https://wicombit.com/demo/realfood" target="_self">
                   Home Page
@@ -53,23 +53,23 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div class="uk-width-1-1 uk-width-1-2@s uk-width-1-4@m">
-            <h4 class="tas-title">Newsletter</h4>
+          <div className="uk-width-1-1 uk-width-1-2@s uk-width-1-4@m">
+            <h4 className="tas-title">Newsletter</h4>
 
-            <div class="new-subscriber">
+            <div className="new-subscriber">
               <form>
-                <div class="uk-inline uk-width-1-1">
-                  <i class="ti ti-at uk-form-icon"></i>
+                <div className="uk-inline uk-width-1-1">
+                  <i className="ti ti-at uk-form-icon"></i>
                   <input
                     type="email"
                     id="subscriber_email"
                     name="subscriber_email"
-                    class="uk-input uk-width-1-1 uk-form-large uk-border-pill"
+                    className="uk-input uk-width-1-1 uk-form-large uk-border-pill"
                     placeholder="Email Address"
                   />
                 </div>
                 <button
-                  class="uk-button uk-width-1-1 uk-button-large uk-button-primary uk-border-pill uk-margin-small-top"
+                  className="uk-button uk-width-1-1 uk-button-large uk-button-primary uk-border-pill uk-margin-small-top"
                   value="Suscribe Now"
                   type="submit"
                   id="submit-subscriber"
@@ -84,10 +84,10 @@ const Footer = () => {
         </div>
       </div>
 
-      <div class="tas-copyright">
-        <div class="uk-container">
+      <div className="tas-copyright">
+        <div className="uk-container">
           <div uk-grid>
-            <div class="uk-width-1-1 uk-text-center">© 2021 Real Food</div>
+            <div className="uk-width-1-1 uk-text-center">© 2021 Real Food</div>
           </div>
         </div>
       </div>
